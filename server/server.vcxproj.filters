@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BinaryBuilder.cpp" />
+    <ClCompile Include="BinaryUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketBuilder.cpp" />
+    <ClCompile Include="Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObject.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Port.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RefCountObject.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketBufferHandler.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PortListener.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp" />
+    <ClCompile Include="ThreadBase.cpp" />
+    <ClCompile Include="CrashHandler.cpp" />
+    <ClCompile Include="IOThread.cpp" />
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TypeDefine.h" />
+    <ClInclude Include="BinaryBuilder.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="BinaryUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializable.h" />
+    <ClInclude Include="SystemPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBuilder.h" />
+    <ClInclude Include="Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="INetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObject.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Port.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RefCountObject.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DataConst.h" />
+    <ClInclude Include="StlAllocator.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBufferHandler.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PortListener.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="INetworkNotify.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h" />
+    <ClInclude Include="ThreadBase.h" />
+    <ClInclude Include="CrashHandler.h" />
+    <ClInclude Include="IOThread.h" />
+    <ClInclude Include="NetworkDesc.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusivePtr.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Util">
+      <UniqueIdentifier>{63771047-4274-4e49-91cd-cbec1a74623c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{fb1a930f-e687-4170-9650-7caae3750d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{edeec206-7ec4-4f86-ae4a-1cf1c28c0a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{cac919c2-74aa-4d84-a80d-5a28b7b4134d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
