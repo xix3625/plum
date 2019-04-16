@@ -57,6 +57,21 @@
     <ClCompile Include="ServerConnection.cpp">
       <Filter>Network</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PathData.cpp">
+      <Filter>PathEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="PathEngineManager.cpp">
+      <Filter>PathEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TypeDefine.h" />
@@ -134,6 +149,21 @@
     <ClInclude Include="ServerConnection.h">
       <Filter>Network</Filter>
     </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PathData.h">
+      <Filter>PathEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="PathEngineManager.h">
+      <Filter>PathEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Data</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Util">
@@ -147,6 +177,15 @@
     </Filter>
     <Filter Include="Base">
       <UniqueIdentifier>{cac919c2-74aa-4d84-a80d-5a28b7b4134d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{00133420-aad5-4b36-bdbb-fe8067490977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PathEngine">
+      <UniqueIdentifier>{88086a76-6048-49ce-a089-ace1af6ff495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3c8de457-1131-49d8-85d7-c798bdd13464}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

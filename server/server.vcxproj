@@ -145,19 +145,24 @@
     <ClCompile Include="BinaryBuilder.cpp" />
     <ClCompile Include="BinaryUtil.cpp" />
     <ClCompile Include="CrashHandler.cpp" />
+    <ClCompile Include="DataManager.cpp" />
     <ClCompile Include="IOThread.cpp" />
     <ClCompile Include="Lock.cpp" />
     <ClCompile Include="EventObject.cpp" />
     <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Memory.cpp" />
     <ClCompile Include="MemoryManager.cpp" />
     <ClCompile Include="Network.cpp" />
     <ClCompile Include="PacketBuffer.cpp" />
     <ClCompile Include="PacketBufferHandler.cpp" />
     <ClCompile Include="PacketBuilder.cpp" />
+    <ClCompile Include="PathData.cpp" />
+    <ClCompile Include="PathEngineManager.cpp" />
     <ClCompile Include="Port.cpp" />
     <ClCompile Include="PortListener.cpp" />
     <ClCompile Include="RefCountObject.cpp" />
+    <ClCompile Include="Sector.cpp" />
     <ClCompile Include="ServerConnection.cpp" />
     <ClCompile Include="Socket.cpp" />
     <ClCompile Include="SystemPacket.cpp" />
@@ -169,6 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CrashHandler.h" />
+    <ClInclude Include="DataManager.h" />
     <ClInclude Include="INetworkNotify.h" />
     <ClInclude Include="IntrusivePtr.hpp" />
     <ClInclude Include="IOThread.h" />
@@ -182,6 +188,7 @@
     <ClInclude Include="INetwork.h" />
     <ClInclude Include="ISerializable.h" />
     <ClInclude Include="Log.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Memory.h" />
     <ClInclude Include="MemoryManager.h" />
     <ClInclude Include="Network.h" />
@@ -189,9 +196,12 @@
     <ClInclude Include="PacketBuffer.h" />
     <ClInclude Include="PacketBufferHandler.h" />
     <ClInclude Include="PacketBuilder.h" />
+    <ClInclude Include="PathData.h" />
+    <ClInclude Include="PathEngineManager.h" />
     <ClInclude Include="Port.h" />
     <ClInclude Include="PortListener.h" />
     <ClInclude Include="RefCountObject.h" />
+    <ClInclude Include="Sector.h" />
     <ClInclude Include="ServerConnection.h" />
     <ClInclude Include="Socket.h" />
     <ClInclude Include="StlAllocator.h" />

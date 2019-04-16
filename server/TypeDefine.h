@@ -21,6 +21,8 @@ typedef int64				size;
 typedef	uint32				id32;
 typedef	uint64				id64;
 
+typedef int32				tid;
+
 #ifndef _STDINT
 #define INT8_MIN         (-127i8 - 1)
 #define INT16_MIN        (-32767i16 - 1)

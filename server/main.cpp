@@ -5,6 +5,8 @@
 #include "PacketBuilder.h"
 #include "SystemPacket.h"
 
+#pragma comment(lib, "ws2_32.lib") 
+
 void TestPacket();
 void TestBinaryBuilder();
 
